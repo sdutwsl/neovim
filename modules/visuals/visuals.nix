@@ -190,7 +190,6 @@ in {
     (mkIf cfg.noice.enable {
       vim.startPlugins = [
         "noice"
-        "nui"
         "notify"
       ];
       vim.luaConfigRC.noice =

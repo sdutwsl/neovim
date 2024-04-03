@@ -141,6 +141,16 @@
       flake = false;
     };
 
+    # Org
+    plugins-neorg = {
+      url = "github:nvim-neorg/neorg";
+      flake = false;
+    };
+    plugins-lua-utils = {
+      url = "github:nvim-neorg/lua-utils.nvim";
+      flake = false;
+    };
+
     # Visuals
     plugins-nvim-autopairs = {
       url = "github:windwp/nvim-autopairs";
@@ -266,6 +276,7 @@
           trouble.enable = true;
         };
         vim.debug.ui.enable = true;
+        vim.org.neorg.enable = false;
         vim.visuals = {
           enable = true;
           nvimWebDevicons.enable = true;
