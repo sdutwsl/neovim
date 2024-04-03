@@ -270,6 +270,7 @@
           sql.enable = true;
           tailwind.enable = true;
           ts.enable = true;
+          vue.enable = true;
         };
         vim.lsp = {
           formatOnSave = true;
