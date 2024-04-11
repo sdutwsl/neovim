@@ -121,6 +121,12 @@
       flake = false;
     };
 
+    # Markdown
+    plugins-glow-nvim = {
+      url = "github:ellisonleao/glow.nvim";
+      flake = false;
+    };
+
     # Themes
     plugins-rose-pine = {
       url = "github:rose-pine/neovim";
