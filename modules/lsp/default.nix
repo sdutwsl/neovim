@@ -9,10 +9,13 @@ with builtins; let
   usingNvimCmp = config.vim.autocomplete.enable && config.vim.autocomplete.type == "nvim-cmp";
 in {
   imports = [
-    ./lspconfig.nix
-    ./null-ls.nix
-    ./trouble.nix
     ./fidget.nix
+    ./lightbulb.nix
+    ./lspconfig.nix
+    ./lspkind.nix
+    ./null-ls.nix
+    ./signature.nix
+    ./trouble.nix
   ];
 
   options.vim.lsp = {

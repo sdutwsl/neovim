@@ -298,6 +298,38 @@
         "type": "github"
       }
     },
+    "plugins-lsp-signature": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1710647656,
+        "narHash": "sha256-O7y7pcCvF0xUFamG+wMLe4mC6hUQ679rJV+ZUoWB0oY=",
+        "owner": "ray-x",
+        "repo": "lsp_signature.nvim",
+        "rev": "c6aeb2f1d2538bbdfdaab1664d9d4c3c75aa9db8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ray-x",
+        "repo": "lsp_signature.nvim",
+        "type": "github"
+      }
+    },
+    "plugins-lspkind": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1704982040,
+        "narHash": "sha256-/QLdBU/Zwmkw1NGuLBD48tvrmIP9d9WHhgcLEQgRTWo=",
+        "owner": "onsails",
+        "repo": "lspkind-nvim",
+        "rev": "1735dd5a5054c1fb7feaf8e8658dbab925f4f0cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "onsails",
+        "repo": "lspkind-nvim",
+        "type": "github"
+      }
+    },
     "plugins-lua-utils": {
       "flake": false,
       "locked": {
@@ -503,6 +535,22 @@
       "original": {
         "owner": "mfussenegger",
         "repo": "nvim-jdtls",
+        "type": "github"
+      }
+    },
+    "plugins-nvim-lightbulb": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689887436,
+        "narHash": "sha256-Meoop66jINllnxN6aohuPmU7DEjn64FMq/b8zuy9FEQ=",
+        "owner": "kosayoda",
+        "repo": "nvim-lightbulb",
+        "rev": "8f00b89dd1b1dbde16872bee5fbcee2e58c9b8e9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kosayoda",
+        "repo": "nvim-lightbulb",
         "type": "github"
       }
     },
@@ -766,6 +814,8 @@
         "plugins-indent-blankline": "plugins-indent-blankline",
         "plugins-kommentary": "plugins-kommentary",
         "plugins-lazygit": "plugins-lazygit",
+        "plugins-lsp-signature": "plugins-lsp-signature",
+        "plugins-lspkind": "plugins-lspkind",
         "plugins-lua-utils": "plugins-lua-utils",
         "plugins-neorg": "plugins-neorg",
         "plugins-noice": "plugins-noice",
@@ -779,6 +829,7 @@
         "plugins-nvim-dap-ui": "plugins-nvim-dap-ui",
         "plugins-nvim-dap-virtual-text": "plugins-nvim-dap-virtual-text",
         "plugins-nvim-jdtls": "plugins-nvim-jdtls",
+        "plugins-nvim-lightbulb": "plugins-nvim-lightbulb",
         "plugins-nvim-lspconfig": "plugins-nvim-lspconfig",
         "plugins-nvim-metals": "plugins-nvim-metals",
         "plugins-nvim-nio": "plugins-nvim-nio",

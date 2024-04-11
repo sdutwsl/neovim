@@ -200,12 +200,18 @@ in {
         ''
           require("noice").setup({
             lsp = {
+              progress = {
+                enabled = false,
+              },
               override = {
                 ["vim.lsp.util.convert_input_to_markdown_lines"] = true,
                 ["vim.lsp.util.stylize_markdown"] = true,
                 ["cmp.entry.get_documentation"] = true,
               },
               signature = {
+                enabled = false,
+              },
+              message = {
                 enabled = false,
               },
             },
@@ -219,7 +225,7 @@ in {
           })
 
           require("notify").setup({
-            background_colour = "#000000"
+            background_colour = "#00000000"
           })
         '';
     })

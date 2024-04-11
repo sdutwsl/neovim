@@ -16,12 +16,24 @@
       url = "github:j-hui/fidget.nvim";
       flake = false;
     };
+    plugins-nvim-lightbulb = {
+      url = "github:kosayoda/nvim-lightbulb";
+      flake = false;
+    };
     plugins-nvim-lspconfig = {
       url = "github:neovim/nvim-lspconfig";
       flake = false;
     };
+    plugins-lspkind = {
+      url = "github:onsails/lspkind-nvim";
+      flake = false;
+    };
     plugins-null-ls = {
       url = "github:jose-elias-alvarez/null-ls.nvim";
+      flake = false;
+    };
+    plugins-lsp-signature = {
+      url = "github:ray-x/lsp_signature.nvim";
       flake = false;
     };
     plugins-trouble = {
@@ -280,6 +292,10 @@
         };
         vim.lsp = {
           formatOnSave = true;
+          fidget.enable = true;
+          lightbulb.enable = true;
+          lspkind.enable = true;
+          lspSignature.enable = true;
           trouble.enable = true;
         };
         vim.debug.ui.enable = true;
