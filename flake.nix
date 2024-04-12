@@ -124,8 +124,8 @@
     };
 
     # Copilot
-    plugins-github-copilot = {
-      url = "github:github/copilot.vim";
+    plugins-copilot = {
+      url = "github:zbirenbaum/copilot.lua";
       flake = false;
     };
     plugins-copilot-chat = {

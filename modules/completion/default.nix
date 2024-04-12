@@ -85,7 +85,6 @@ in {
         "cmp-buffer"
         "cmp-vsnip"
         "cmp-path"
-        "github-copilot"
       ]
       ++ optional debugEnabled "cmp-dap";
 
@@ -111,8 +110,6 @@ in {
           return vim_item
         end
 
-        vim.g.copilot_no_tab_map = true
-        vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
         local has_words_before = function()
           local line, col = unpack(vim.api.nvim_win_get_cursor(0))
           return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
