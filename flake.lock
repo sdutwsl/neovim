@@ -330,38 +330,6 @@
         "type": "github"
       }
     },
-    "plugins-lua-utils": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1708177208,
-        "narHash": "sha256-9ildzQEMkXKZ3LHq+khGFgRQFxlIXQclQ7QU3fcU1C4=",
-        "owner": "nvim-neorg",
-        "repo": "lua-utils.nvim",
-        "rev": "e565749421f4bbb5d2e85e37c3cef9d56553d8bd",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nvim-neorg",
-        "repo": "lua-utils.nvim",
-        "type": "github"
-      }
-    },
-    "plugins-neorg": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1712669590,
-        "narHash": "sha256-5373u9wjK6emHuAFA4Ys5QpqiTgOvUiZejLPrBadack=",
-        "owner": "nvim-neorg",
-        "repo": "neorg",
-        "rev": "727ef2ab4247b52733d1a84d87143257e783d4e9",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nvim-neorg",
-        "repo": "neorg",
-        "type": "github"
-      }
-    },
     "plugins-noice": {
       "flake": false,
       "locked": {
@@ -634,22 +602,6 @@
         "type": "github"
       }
     },
-    "plugins-octo-nvim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1712174726,
-        "narHash": "sha256-Fj8vWwzlD4lM7xvlKZPkQAPxfV+BBnBmUpiIvWTHLEs=",
-        "owner": "pwntester",
-        "repo": "octo.nvim",
-        "rev": "a511b52fbf040f928a24deb72e17ec465613b442",
-        "type": "github"
-      },
-      "original": {
-        "owner": "pwntester",
-        "repo": "octo.nvim",
-        "type": "github"
-      }
-    },
     "plugins-plenary-nvim": {
       "flake": false,
       "locked": {
@@ -816,8 +768,6 @@
         "plugins-lazygit": "plugins-lazygit",
         "plugins-lsp-signature": "plugins-lsp-signature",
         "plugins-lspkind": "plugins-lspkind",
-        "plugins-lua-utils": "plugins-lua-utils",
-        "plugins-neorg": "plugins-neorg",
         "plugins-noice": "plugins-noice",
         "plugins-notify": "plugins-notify",
         "plugins-nui": "plugins-nui",
@@ -835,7 +785,6 @@
         "plugins-nvim-nio": "plugins-nvim-nio",
         "plugins-nvim-tree-lua": "plugins-nvim-tree-lua",
         "plugins-nvim-web-devicons": "plugins-nvim-web-devicons",
-        "plugins-octo-nvim": "plugins-octo-nvim",
         "plugins-plenary-nvim": "plugins-plenary-nvim",
         "plugins-rose-pine": "plugins-rose-pine",
         "plugins-rust-tools": "plugins-rust-tools",

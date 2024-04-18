@@ -14,7 +14,6 @@
     ./keys
     ./languages
     ./lsp
-    ./org
     ./snippets
     ./telescope
     ./theme

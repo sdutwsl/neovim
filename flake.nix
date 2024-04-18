@@ -154,20 +154,6 @@
       url = "github:kdheepak/lazygit.nvim";
       flake = false;
     };
-    plugins-octo-nvim = {
-      url = "github:pwntester/octo.nvim";
-      flake = false;
-    };
-
-    # Org
-    plugins-neorg = {
-      url = "github:nvim-neorg/neorg";
-      flake = false;
-    };
-    plugins-lua-utils = {
-      url = "github:nvim-neorg/lua-utils.nvim";
-      flake = false;
-    };
 
     # Visuals
     plugins-nvim-autopairs = {
@@ -257,7 +243,6 @@
           gitsigns.enable = true;
           gitsigns.codeActions = true;
           lazygit.enable = true;
-          octo.enable = true;
         };
         vim.keys = {
           enable = true;
@@ -299,7 +284,6 @@
           trouble.enable = true;
         };
         vim.debug.ui.enable = true;
-        vim.org.neorg.enable = false;
         vim.visuals = {
           enable = true;
           nvimWebDevicons.enable = true;
