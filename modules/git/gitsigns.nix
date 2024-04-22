@@ -66,19 +66,6 @@ in {
                   vim.keymap.set(mode, l, r, opts)
                 end
 
-                -- navigation
-                map('n', '<leader>gn', function()
-                  if vim.wo.diff then return '<leader>gn' end
-                  vim.schedule(function() gs.next_hunk() end)
-                  return '<Ignore>'
-                end, {expr=true})
-
-                map('n', '<leader>gp', function()
-                  if vim.wo.diff then return '<leader>gn' end
-                  vim.schedule(function() gs.prev_hunk() end)
-                  return '<Ignore>'
-                end, {expr=true})
-
                 -- actions
                 map('n', '<leader>gb', function() gs.blame_line{full=true} end)
 
