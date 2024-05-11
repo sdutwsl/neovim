@@ -24,6 +24,7 @@ in {
     ./tailwind.nix
     ./ts.nix
     ./vue.nix
+    ./go.nix
   ];
 
   options.vim.languages = {

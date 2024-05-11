@@ -250,6 +250,22 @@
         "type": "github"
       }
     },
+    "plugins-go": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1715298831,
+        "narHash": "sha256-S5P9tML5M9lchOKTV4ra8j4H9xSkyz4niWmNSn/wuWY=",
+        "owner": "ray-x",
+        "repo": "go.nvim",
+        "rev": "4348ba67c29338af648ed9a0455bebb44fdb3ef3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ray-x",
+        "repo": "go.nvim",
+        "type": "github"
+      }
+    },
     "plugins-indent-blankline": {
       "flake": false,
       "locked": {
@@ -763,6 +779,7 @@
         "plugins-fidget": "plugins-fidget",
         "plugins-gitsigns-nvim": "plugins-gitsigns-nvim",
         "plugins-glow-nvim": "plugins-glow-nvim",
+        "plugins-go": "plugins-go",
         "plugins-indent-blankline": "plugins-indent-blankline",
         "plugins-kommentary": "plugins-kommentary",
         "plugins-lazygit": "plugins-lazygit",

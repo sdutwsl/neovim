@@ -62,6 +62,10 @@
       url = "github:nanotee/sqls.nvim";
       flake = false;
     };
+    plugins-go = {
+      url = "github:ray-x/go.nvim";
+      flake = false;
+    };
 
     # Debug
     plugins-nvim-dap = {
@@ -265,6 +269,7 @@
           markdown.enable = true;
           nix.enable = true;
           python.enable = true;
+          golang.enable = true;
           rust = {
             enable = true;
             crates.enable = true;
